@@ -1,0 +1,50 @@
+ @import '../variables.scss';
+ @import '../fonts.scss';
+
+.AboutUs{
+    &__container{
+        padding: 5px;
+        margin: 0 auto;
+        max-width: 1170px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__container-info{
+        width: 567px;
+    }
+    &__container-info-title{
+        @include title;
+        color: black;
+    }
+    &__container-info-subtext{
+        @include subtext;
+        color: black;
+        margin-top: 25px;
+    }
+    &__container-info-link{
+        margin-top: 40px;
+        @include btn;
+        @include subtext;
+    }
+}
+
+@media (max-width: $vp-large){
+    .AboutUs{
+        &__container-img{
+            width: 45%;
+        }
+    }
+}
+
+@media (max-width: $vp-medium){
+    .AboutUs{
+        &__container-info{
+            width: 700px;
+        }
+        &__container-img{
+            display: none;
+        }
+    }
+}
+

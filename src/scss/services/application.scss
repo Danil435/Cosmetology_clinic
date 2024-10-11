@@ -1,0 +1,44 @@
+@import '../variables.scss';
+@import '../fonts.scss';
+
+.application{
+    max-width: 371px;
+    margin: 0 auto;
+    margin-top: 50px;
+    &__container-subtitle{
+        @include subtitle;
+        margin-bottom: 40px;
+    }
+    &__container-search-subtext{
+        @include subtext;
+        color: #000;
+        margin-bottom: 15px;
+    }
+    &__container-search-text{
+        @include search;
+        width: 365px;
+        margin-bottom: 25px;
+    }
+    &__container-search-btn{
+        display: inline-block;
+        @include btn;
+        @include subtext;
+        
+    }
+}
+
+@media (min-width:$vp-small) {
+    .application{
+        &__container-search{
+            margin:0px 10px;
+        }
+        &__container-subtitle{
+            margin: 0px 0px 40px 10px;
+        }
+     
+        &__container-search-text{
+            width: 280px;
+        }
+    }
+
+}

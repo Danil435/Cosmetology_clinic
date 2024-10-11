@@ -1,0 +1,68 @@
+@import '../variables.scss';
+@import '../fonts.scss';
+
+.service{
+    &__container{
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+    &__container-subtitle{
+        @include subtitle;
+        text-align: center;
+        margin-top: 50px;
+    }
+    &__container-cards{
+        margin-top: 50px;
+        display: flex;
+       justify-content: space-between;
+    }
+    &__container-card{
+        background-image: url(/src/assets/images/bg-service.png);
+        background-repeat: no-repeat;
+        padding: 28px 37px 27px 60px;
+        max-width: 366px;
+        border-radius: 50px
+    }
+    &__container-card-subtext{
+        @include subtext;
+        font-family: 'Cormorant Garamond';
+    }
+    &__container-card-text{
+        @include basic-text;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: $vp-large){
+    .service{
+        &__container-subtitle{
+            margin-top: 30px;
+        }
+    }
+    
+   
+}
+
+@media (max-width: $vp-medium) {
+    .service{
+        &__container-cards{
+            flex-wrap: wrap;
+        }
+        &__container-card{
+            width: 400px;
+        margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: $vp-small) {
+    .service{
+        &__container-cards{
+            flex-direction: column;
+        }
+        &__container-card{
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}

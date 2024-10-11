@@ -1,0 +1,24 @@
+@import '../fonts.scss';
+.Orders{
+    &__container{
+        margin: 0 auto;
+    max-width: 1170px;
+    margin-top: 50px;
+    }
+    &__container-subtitle{
+        @include subtitle;
+    }
+    &__container-block{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+    }
+    &__container-block-img{
+        margin-right: 30px
+    }
+    &__container-block-subtext{
+        @include subtext;
+        color: #000;
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.Product__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.Product__container-title {
+  font-size: 64px;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  color: #ffffff;
+  color: #000;
+  margin-top: 15px;
+}
+.Product__container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.Product__container-card {
+  width: 256px;
+}
+.Product__container-card-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  margin-top: 10px;
+}
+.Product__container-card-text {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+}
+.Product__container-card-cena {
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .Product__container {
+    max-width: 830px;
+  }
+}
+@media (max-width: 768px) {
+  .Product__container {
+    width: 550px;
+  }
+}
+@media (max-width: 426px) {
+  .Product__container {
+    max-width: 260px;
+  }
+}
+@media (max-width: 320px) {
+  .Product__container-title {
+    margin: 0;
+    font-size: 48px;
+  }
+  .Product__container-cards {
+    width: 250px;
+  }
+  .Product__container-card {
+    max-width: 200px;
+  }
+  .Product__container-card-img {
+    width: 200px;
+  }
+}/*# sourceMappingURL=Product.css.map */

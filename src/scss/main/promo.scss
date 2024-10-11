@@ -1,0 +1,28 @@
+@import '../fonts.scss';
+.promo{
+    background-image: url(/src/assets/images/image\ 9.svg);
+    background-size: cover; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 371px;
+    background-repeat: no-repeat;
+
+    &__container-info{
+        text-align: center;
+    }
+
+    &__container-info-subtitle{
+        @include subtitle;
+        color: white;
+    }
+
+    &__container-info-link{
+        padding: 10px;
+        border-radius: 22px;
+        @include subtext;
+        margin-top: 50px;
+        @include link;
+    }
+
+}

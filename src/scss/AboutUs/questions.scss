@@ -1,0 +1,65 @@
+@import '../variables.scss';
+@import '../fonts.scss';
+
+.questions{
+    margin-top: 50px;
+    &__container{
+        background-image: url(/src/assets/images/bg-AboutUs.svg);
+        height: 500px;     
+        background-repeat: no-repeat;
+    }
+    &__container-subtitle{
+        @include subtitle;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    &__container-dropdown{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin-top: 20px
+    }
+    &__container-dropdown-subtext{
+        @include subtext;
+        margin-right: 15px;
+    }
+    &__container-dropdown-info{
+        display: flex;
+        margin-left: 375px;
+    }
+    
+      &__container-info-img {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transition: transform 0.3s;
+      }
+      
+      &__container-dropdown-content {
+        display: none;
+        position: relative;
+        color: #ffffff;
+        padding: 12px 16px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      &__container-dropdown.active .questions__container-info-img {
+        transform: rotate(90deg);
+      }
+      &__container-dropdown.active .questions__container-dropdown-content {
+        display: block;
+      }
+
+}
+
+@media (max-width:$vp-large){
+  .questions{
+    &__container-dropdowns{
+      margin: 0 auto;
+    }
+  }
+}

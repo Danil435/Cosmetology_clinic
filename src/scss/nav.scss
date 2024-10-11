@@ -1,0 +1,160 @@
+@import 'variables.scss';
+@import 'fonts.scss';
+.body-wraper{
+overflow: hidden;
+width: 100%;
+position: relative;
+}
+
+.header{
+   
+    &__burger-btn{
+        display: none;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        z-index: 2;
+        cursor: pointer;
+    }
+    // Бургер
+    &__burger-btn span{
+        left: 5px;
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        transition: background-color .3s, opacity .3s, transform .5s;
+        will-change: transform;
+        cursor: pointer;
+        border-radius:20px ;
+    }
+
+    &__nav-item-link {
+        position: relative; /* Устанавливаем позицию для псевдоэлемента */
+        color: #000; /* Цвет текста */
+        text-decoration: none; /* Убираем стандартное подчеркивание */
+    }
+    
+    &__nav-item-link::after {
+        content: ''; /* Необходим для псевдоэлемента */
+        position: absolute;
+        left: 0;
+        bottom: -2px; /* Устанавливаем положение подчеркивания */
+        width: 100%; /* Ширина по умолчанию */
+        height: 2px; /* Высота подчеркивания */
+        background-color: black; /* Цвет подчеркивания */
+        transform: scaleX(0); /* Начальное состояние (скрыто) */
+        transition: transform 0.3s ease; /* Плавный переход */
+    }
+    
+    &__nav-item-link:hover::after {
+        transform: scaleX(1); /* Прокладываем подчеркивание при наведении */
+    }
+
+    &__burger-btn:hover span{
+        background-color: #322d2d;
+    }
+
+
+    &__burger-btn span:nth-child(1){
+        transform: translateY(-10px);
+    }
+
+    &__burger-btn span:nth-child(3){
+        transform: translateY(10px);
+    }
+// бургер
+
+// Крестик
+
+header.open &__burger-btn span:nth-child(1){
+    transform: translateY(0) rotate(45deg);
+}
+
+header.open &__burger-btn span:nth-child(2){
+    opacity: 0;
+}
+
+header.open &__burger-btn span:nth-child(3){
+    transform: translateY(0) rotate(-45deg);
+}
+// Крестик
+
+header.open &__nav-menu{
+    transform: translateX(-100%);
+    visibility: visible;
+}
+    &__nav{
+        padding-top: 17px;
+        padding-bottom: 17px;
+        display: flex;
+        justify-content: space-between;
+        max-width: 1451px;
+        margin: 0 auto; 
+        align-items: center;
+    }
+    &__nav-logo{
+        display: flex;
+        align-items: center
+    }
+    &__nav-logo-subtext{
+        @include subtext;
+        color: #000;
+    }
+    &__nav-menu{
+        display: flex;
+        align-items: center;
+        @include subtext;
+        
+    }
+    &__nav-item{
+        margin-right: 38px;
+        color: #000;
+    }
+    &__nav-prof{
+        align-items: center;
+        display: flex;
+    }
+    &__nav-prof-item{
+        margin-right: 17px;
+    }
+
+}
+
+@media (max-width: $vp-medium){
+    .header{
+        &__burger-btn{
+            display: block;
+        }
+        &__nav-menu{
+            position: absolute;
+            right: -350px;
+            top: 0;
+            width: 350px;
+            height: 250px;
+            padding: 35px 10px 10px 10px;
+            background-color:#AC9782;
+            border-radius: 5px;
+            display: block;
+            visibility: hidden;
+            transition: transfrom .5s, visibility .25s;
+        }
+        &__nav-item-link{
+            
+            display: block;
+            margin-top: 30px;
+        }
+    }
+    }
+    
+@media (max-width: $vp-small){
+    .header{
+        &__nav-menu{
+            width: 335px;
+        }
+    }
+}

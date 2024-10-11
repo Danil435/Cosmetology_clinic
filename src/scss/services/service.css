@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.service__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.service__container-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-top: 50px;
+}
+.service__container-cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.service__container-card {
+  background-image: url(/src/assets/images/bg-service.png);
+  background-repeat: no-repeat;
+  padding: 28px 37px 27px 60px;
+  max-width: 366px;
+  border-radius: 50px;
+}
+.service__container-card-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Cormorant Garamond";
+}
+.service__container-card-text {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .service__container-subtitle {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .service__container-cards {
+    flex-wrap: wrap;
+  }
+  .service__container-card {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .service__container-cards {
+    flex-direction: column;
+  }
+  .service__container-card {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=service.css.map */

@@ -1,0 +1,112 @@
+@import '../variables.scss';
+@import '../fonts.scss';
+.offers {
+    &__container-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        max-width: 1170px;
+        margin: 0 auto;
+        
+    }
+
+    &__container-subtitle {
+        @include subtitle;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    &__container-card {
+        max-width: 368px;
+        margin-top: 50px;
+    }
+
+    &__container-card-subtext {
+        @include subtext;
+        color: black;
+        margin-top: 15px;
+    }
+
+    &__container-card-text {
+        @include basic-text;
+        color: black;
+        margin-top: 15px;
+    }
+
+    &__container-card-buy {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    &__container-card-subtitle-buy-subtitle {
+        @include subtitle;
+    }
+
+    &__container-card-buy-btn {
+        @include btn;
+        @include subtext;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+    }
+    &__container-card-buy-btn::before {
+        font-family: FontAwesome;
+        content:"\f07a";
+        position: absolute;
+        top: 11px;
+        left: -30px;
+        transition: all 0.5s ease;
+    }
+    &__container-card-buy-btn:hover::before {
+        left: 5px;
+    }
+}
+
+@media (max-width: $vp-medium) {
+    .offers {
+        &__container-cards {
+            padding: 10px;
+            max-width: 700px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin: 0 auto;
+            gap: 20px; 
+        }
+
+        &__container-card {
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        &__container-card-img {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: $vp-xs) and (min-width: $vp-small) {
+  .offers{
+    &__container-card-img{
+        width: 250px;
+    }
+
+    &__container-subtitle{
+        font-size: 24px;
+    }
+    &__container-card{
+        width: 250px;
+    }
+    &__container-card-img{
+        width: 250px;
+    }
+    &__container-card-subtitle-buy-subtitle{
+        font-size: 24px;
+    }
+    &__container-card-buy-btn{
+        font-size: 16px;
+    }
+  }
+  }

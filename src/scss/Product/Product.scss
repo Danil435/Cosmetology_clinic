@@ -1,0 +1,82 @@
+@import '../variables.scss';
+@import '../fonts.scss';
+.Product{
+    &__container{
+        max-width: 1170px;
+        margin: 0 auto; 
+    }
+    &__container-title{
+        @include title;
+        color: #000;
+        margin-top: 15px;
+    }
+    &__container-cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    &__container-card{
+        width: 256px;
+    }
+    &__container-card-subtext{
+        @include subtext;
+        color: #000;
+        margin-top: 10px
+    }
+    &__container-card-text{
+        @include basic-text;
+        color: #000;
+    }
+    &__container-card-cena{
+        margin-top: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: $vp-large) {
+    .Product{
+        &__container{
+            max-width: 830px;
+        }
+    }
+    
+}
+
+@media (max-width: $vp-medium) {
+    .Product{
+        &__container{
+            width: 550px;
+        }
+    
+    }
+}
+
+@media (max-width: $vp-xs){
+.Product{
+    &__container{
+        max-width: 260px;
+    }
+}
+}
+@media (max-width: $vp-small){
+    .Product{
+        &__container-title{
+            margin: 0;
+            font-size: 48px;
+        }
+        &__container-cards{
+            width: 250px;
+        }
+        &__container-card{
+            max-width: 200px;
+        }
+        &__container-card-img{
+            width: 200px;
+
+        }
+    }
+}

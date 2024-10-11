@@ -1,0 +1,60 @@
+@import 'variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@mixin text($font-size, $font-family, $font-weight,$color) {
+	font-size: $font-size;
+	font-family: $font-family;
+	font-weight: $font-weight;
+	color: $color;
+}
+
+@mixin button($border-radius,$padding,$background-color, $color){
+	border-radius: $border-radius;
+	padding: $padding;
+	background-color: $background-color;
+	color: $color;
+}
+
+@mixin bnt-link($border,$display,$transition){
+	border: $border;
+	display: $display;
+	transition: $transition; 
+}
+@mixin link{
+	@include bnt-link(2px solid #ffffff,inline-block,all 1s );
+	&:hover{
+		background-color: #ffffff;
+            color: #000000; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+            transform: scale(1.1);
+	}
+	}
+@mixin title{
+	@include text(64px,'Cormorant Garamond',700,#ffffff)
+}
+
+@mixin subtitle{
+	@include text(36px, 'Lato',700,#000000);
+}
+
+@mixin subtext{
+	@include text(24px,'Lato',400,#ffffff);
+}
+
+@mixin basic-text{
+	@include text (16px,'Lato',400,#ffffff);
+}
+
+@mixin btn{
+	@include button(12px,12px 35px,#AC9782,#ffffff)
+}
+
+@mixin forma {
+	@include button(30px, 11px 52px ,none,#ffffff )
+}
+
+@mixin search{
+	@include button(12px,10px, #F1ECE4, #000)
+}
+

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.AboutUs__container {
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.AboutUs__container-info {
+  width: 567px;
+}
+.AboutUs__container-info-title {
+  font-size: 64px;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  color: #ffffff;
+  color: black;
+}
+.AboutUs__container-info-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: black;
+  margin-top: 25px;
+}
+.AboutUs__container-info-link {
+  margin-top: 40px;
+  border-radius: 12px;
+  padding: 12px 35px;
+  background-color: #AC9782;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .AboutUs__container-img {
+    width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .AboutUs__container-info {
+    width: 700px;
+  }
+  .AboutUs__container-img {
+    display: none;
+  }
+}/*# sourceMappingURL=AboutUS.css.map */

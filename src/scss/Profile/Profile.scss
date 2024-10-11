@@ -1,0 +1,28 @@
+@import '../fonts.scss';
+
+.Profile{
+    &__container{
+        margin: 0 auto;
+        max-width: 1170px;
+        margin-top: 100px;
+    }
+    &__container-title{
+        @include title;
+        color: #000;
+    }
+    &__container-subtitle{
+        @include subtitle;
+    }
+    &__container-subtext{
+        @include subtext;
+        color: #000;
+        margin-top: 15px;
+    }
+    &__container-info{
+        margin-top: 30px;
+        display: flex;
+    }
+    &__container-person{
+        margin-right: 126px;
+    }
+}

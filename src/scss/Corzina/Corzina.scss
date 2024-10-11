@@ -1,0 +1,50 @@
+@import '../fonts.scss';
+
+.Corzina{
+    &__container{
+        max-width: 1170px;
+        margin: 0 auto; 
+    }
+    &__container-title{
+        @include title;
+        color: #000;
+        margin-top: 50px
+    }
+    &__container-cards{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    &__container-card{
+        width: 256px;
+    }
+    &__container-card-subtext{
+        @include subtext;
+        color: #000;
+        margin-top: 10px
+    }
+    &__container-card-text{
+        @include basic-text;
+        color: #000;
+    }
+    &__container-card-cena{
+        margin-top: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__container-Cost{
+        justify-content: space-between;
+        display: flex;
+        margin-top: 50px;
+        align-items: center
+    }
+    &__container-Cost-subtitle{
+        @include subtitle;
+        font-weight: 400;
+    }
+    &__container-Cost-btn{
+        @include btn;
+        @include subtext;
+    }
+}

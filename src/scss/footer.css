@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.footer {
+  margin-top: 50px;
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1451px;
+  margin: 0 auto;
+}
+.footer__nav-logo {
+  display: flex;
+  align-items: center;
+}
+.footer__nav-logo-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+}
+.footer__nav-menu {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer__nav-item {
+  margin-right: 38px;
+  color: #000;
+}
+.footer__nav-prof {
+  align-items: center;
+  display: flex;
+}
+.footer__nav-prof-item {
+  margin-right: 17px;
+}
+.footer__nav-item-link {
+  position: relative; /* Устанавливаем позицию для псевдоэлемента */
+  color: #000; /* Цвет текста */
+  text-decoration: none; /* Убираем стандартное подчеркивание */
+}
+.footer__nav-item-link::after {
+  content: ""; /* Необходим для псевдоэлемента */
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Устанавливаем положение подчеркивания */
+  width: 100%; /* Ширина по умолчанию */
+  height: 2px; /* Высота подчеркивания */
+  background-color: black; /* Цвет подчеркивания */
+  transform: scaleX(0); /* Начальное состояние (скрыто) */
+  transition: transform 0.3s ease; /* Плавный переход */
+}
+.footer__nav-item-link:hover::after {
+  transform: scaleX(1); /* Прокладываем подчеркивание при наведении */
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    padding: 5px;
+  }
+}
+@media (max-width: 320px) {
+  .footer__nav-item {
+    display: none;
+  }
+}
+@media (max-width: 426px) and (min-width: 320px) {
+  .footer__nav-menu {
+    display: none;
+  }
+}/*# sourceMappingURL=footer.css.map */

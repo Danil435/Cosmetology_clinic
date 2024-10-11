@@ -1,0 +1,1204 @@
+@charset "UTF-8";
+@import 'normalize.css';
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  list-style-type: none;
+}
+
+body {
+  background-color: #F1ECE4;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.body-wraper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.header__burger-btn {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 2;
+  cursor: pointer;
+}
+.header__burger-btn span {
+  left: 5px;
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background-color: black;
+  transition: background-color 0.3s, opacity 0.3s, transform 0.5s;
+  will-change: transform;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.header__nav-item-link {
+  position: relative; /* Устанавливаем позицию для псевдоэлемента */
+  color: #000; /* Цвет текста */
+  text-decoration: none; /* Убираем стандартное подчеркивание */
+}
+.header__nav-item-link::after {
+  content: ""; /* Необходим для псевдоэлемента */
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Устанавливаем положение подчеркивания */
+  width: 100%; /* Ширина по умолчанию */
+  height: 2px; /* Высота подчеркивания */
+  background-color: black; /* Цвет подчеркивания */
+  transform: scaleX(0); /* Начальное состояние (скрыто) */
+  transition: transform 0.3s ease; /* Плавный переход */
+}
+.header__nav-item-link:hover::after {
+  transform: scaleX(1); /* Прокладываем подчеркивание при наведении */
+}
+.header__burger-btn:hover span {
+  background-color: #322d2d;
+}
+.header__burger-btn span:nth-child(1) {
+  transform: translateY(-10px);
+}
+.header__burger-btn span:nth-child(3) {
+  transform: translateY(10px);
+}
+header.open .header__burger-btn span:nth-child(1) {
+  transform: translateY(0) rotate(45deg);
+}
+header.open .header__burger-btn span:nth-child(2) {
+  opacity: 0;
+}
+header.open .header__burger-btn span:nth-child(3) {
+  transform: translateY(0) rotate(-45deg);
+}
+header.open .header__nav-menu {
+  transform: translateX(-100%);
+  visibility: visible;
+}
+.header__nav {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1451px;
+  margin: 0 auto;
+  align-items: center;
+}
+.header__nav-logo {
+  display: flex;
+  align-items: center;
+}
+.header__nav-logo-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+}
+.header__nav-menu {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+}
+.header__nav-item {
+  margin-right: 38px;
+  color: #000;
+}
+.header__nav-prof {
+  align-items: center;
+  display: flex;
+}
+.header__nav-prof-item {
+  margin-right: 17px;
+}
+
+@media (max-width: 768px) {
+  .header__burger-btn {
+    display: block;
+  }
+  .header__nav-menu {
+    position: absolute;
+    right: -350px;
+    top: 0;
+    width: 350px;
+    height: 250px;
+    padding: 35px 10px 10px 10px;
+    background-color: #AC9782;
+    border-radius: 5px;
+    display: block;
+    visibility: hidden;
+    transition: transfrom 0.5s, visibility 0.25s;
+  }
+  .header__nav-item-link {
+    display: block;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .header__nav-menu {
+    width: 335px;
+  }
+}
+.hero__container {
+  background-image: url(/src/assets/images/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 911px;
+  background-repeat: no-repeat;
+}
+.hero__container-info {
+  text-align: center;
+}
+.hero__container-info-title {
+  font-size: 64px;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.hero__container-info-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.hero__container-info-link {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  transition: all 1s;
+  padding: 10px;
+  border-radius: 22px;
+}
+.hero__container-info-link:hover {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .hero__container {
+    height: 400px;
+  }
+  .hero__container-info-title {
+    font-size: 36px;
+    font-family: "Lato";
+    font-weight: 700;
+    color: #000000;
+    color: #ffffff;
+  }
+  .hero__container-info-subtext {
+    font-size: 20px;
+  }
+}
+.offers__container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.offers__container-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-top: 50px;
+}
+.offers__container-card {
+  max-width: 368px;
+  margin-top: 50px;
+}
+.offers__container-card-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: black;
+  margin-top: 15px;
+}
+.offers__container-card-text {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: black;
+  margin-top: 15px;
+}
+.offers__container-card-buy {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.offers__container-card-subtitle-buy-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+}
+.offers__container-card-buy-btn {
+  border-radius: 12px;
+  padding: 12px 35px;
+  background-color: #AC9782;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.offers__container-card-buy-btn::before {
+  font-family: FontAwesome;
+  content: "\f07a";
+  position: absolute;
+  top: 11px;
+  left: -30px;
+  transition: all 0.5s ease;
+}
+.offers__container-card-buy-btn:hover::before {
+  left: 5px;
+}
+
+@media (max-width: 768px) {
+  .offers__container-cards {
+    padding: 10px;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .offers__container-card {
+    width: 300px;
+    margin-top: 20px;
+  }
+  .offers__container-card-img {
+    width: 300px;
+  }
+}
+@media (max-width: 426px) and (min-width: 320px) {
+  .offers__container-card-img {
+    width: 250px;
+  }
+  .offers__container-subtitle {
+    font-size: 24px;
+  }
+  .offers__container-card {
+    width: 250px;
+  }
+  .offers__container-card-img {
+    width: 250px;
+  }
+  .offers__container-card-subtitle-buy-subtitle {
+    font-size: 24px;
+  }
+  .offers__container-card-buy-btn {
+    font-size: 16px;
+  }
+}
+.team__container {
+  margin-top: 100px;
+}
+.team__container-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team__container-cards {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.team__container-card {
+  max-width: 270px;
+}
+.team__container-card-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+.team__container-card-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+}
+
+@media (max-width: 426px) and (min-width: 320px) {
+  .team {
+    margin-top: 20px;
+  }
+}
+.promo {
+  background-image: url(/src/assets/images/image\ 9.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 371px;
+  background-repeat: no-repeat;
+}
+.promo__container-info {
+  text-align: center;
+}
+.promo__container-info-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  color: white;
+}
+.promo__container-info-link {
+  padding: 10px;
+  border-radius: 22px;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 50px;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  transition: all 1s;
+}
+.promo__container-info-link:hover {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+.footer {
+  margin-top: 50px;
+}
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1451px;
+  margin: 0 auto;
+}
+.footer__nav-logo {
+  display: flex;
+  align-items: center;
+}
+.footer__nav-logo-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+}
+.footer__nav-menu {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+}
+.footer__nav-item {
+  margin-right: 38px;
+  color: #000;
+}
+.footer__nav-prof {
+  align-items: center;
+  display: flex;
+}
+.footer__nav-prof-item {
+  margin-right: 17px;
+}
+.footer__nav-item-link {
+  position: relative; /* Устанавливаем позицию для псевдоэлемента */
+  color: #000; /* Цвет текста */
+  text-decoration: none; /* Убираем стандартное подчеркивание */
+}
+.footer__nav-item-link::after {
+  content: ""; /* Необходим для псевдоэлемента */
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Устанавливаем положение подчеркивания */
+  width: 100%; /* Ширина по умолчанию */
+  height: 2px; /* Высота подчеркивания */
+  background-color: black; /* Цвет подчеркивания */
+  transform: scaleX(0); /* Начальное состояние (скрыто) */
+  transition: transform 0.3s ease; /* Плавный переход */
+}
+.footer__nav-item-link:hover::after {
+  transform: scaleX(1); /* Прокладываем подчеркивание при наведении */
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    padding: 5px;
+  }
+}
+@media (max-width: 320px) {
+  .footer__nav-item {
+    display: none;
+  }
+}
+@media (max-width: 426px) and (min-width: 320px) {
+  .footer__nav-menu {
+    display: none;
+  }
+}
+.main {
+  padding-top: 50px;
+}
+.main__container {
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__container-info {
+  width: 576px;
+}
+.main__container-info-title {
+  font-size: 64px;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  color: #ffffff;
+  color: black;
+}
+.main__container-info-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: black;
+  margin-top: 25px;
+}
+.main__container-info-link {
+  margin-top: 40px;
+  border-radius: 12px;
+  padding: 12px 35px;
+  background-color: #AC9782;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .main__container {
+    padding: 0px;
+  }
+  .main__container-img {
+    display: none;
+  }
+  .main__container-info {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .main__container-img {
+    display: none;
+  }
+  .main__container-info {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .main__container {
+    padding: 0px;
+  }
+}
+@media (max-width: 426px) and (min-width: 320px) {
+  .main__container-info-title {
+    font-size: 50px;
+  }
+}
+.service__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.service__container-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-top: 50px;
+}
+.service__container-cards {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.service__container-card {
+  background-image: url(/src/assets/images/bg-service.png);
+  background-repeat: no-repeat;
+  padding: 28px 37px 27px 60px;
+  max-width: 366px;
+  border-radius: 50px;
+}
+.service__container-card-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Cormorant Garamond";
+}
+.service__container-card-text {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+  .service__container-subtitle {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .service__container-cards {
+    flex-wrap: wrap;
+  }
+  .service__container-card {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .service__container-cards {
+    flex-direction: column;
+  }
+  .service__container-card {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.discounts__container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.discounts__container-subtitle {
+  margin-top: 50px;
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+.discounts__container-block {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discounts__container-block-number {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  background-color: #C49F8C;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.discounts__container-block-info-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+}
+.discounts__container-block-info-text {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .discounts__container {
+    padding: 5px;
+  }
+  .discounts__container-subtitle {
+    font-size: 30px;
+  }
+}
+.application {
+  max-width: 371px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.application__container-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.application__container-search-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  margin-bottom: 15px;
+}
+.application__container-search-text {
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #F1ECE4;
+  color: #000;
+  width: 365px;
+  margin-bottom: 25px;
+}
+.application__container-search-btn {
+  display: inline-block;
+  border-radius: 12px;
+  padding: 12px 35px;
+  background-color: #AC9782;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media (min-width: 320px) {
+  .application__container-search {
+    margin: 0px 10px;
+  }
+  .application__container-subtitle {
+    margin: 0px 0px 40px 10px;
+  }
+  .application__container-search-text {
+    width: 280px;
+  }
+}
+.AboutUs__container {
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.AboutUs__container-info {
+  width: 567px;
+}
+.AboutUs__container-info-title {
+  font-size: 64px;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  color: #ffffff;
+  color: black;
+}
+.AboutUs__container-info-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: black;
+  margin-top: 25px;
+}
+.AboutUs__container-info-link {
+  margin-top: 40px;
+  border-radius: 12px;
+  padding: 12px 35px;
+  background-color: #AC9782;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .AboutUs__container-img {
+    width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .AboutUs__container-info {
+    width: 700px;
+  }
+  .AboutUs__container-img {
+    display: none;
+  }
+}
+.Advantages__container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.Advantages__container-subtitle {
+  margin-top: 50px;
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+.Advantages__container-block {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Advantages__container-block-number {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  background-color: #C49F8C;
+  padding: 15px 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.Advantages__container-block-info-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+}
+.Advantages__container-block-info-text {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  margin-top: 10px;
+}
+
+.Product__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.Product__container-title {
+  font-size: 64px;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  color: #ffffff;
+  color: #000;
+  margin-top: 15px;
+}
+.Product__container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.Product__container-card {
+  width: 256px;
+}
+.Product__container-card-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  margin-top: 10px;
+}
+.Product__container-card-text {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+}
+.Product__container-card-cena {
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .Product__container {
+    max-width: 830px;
+  }
+}
+@media (max-width: 768px) {
+  .Product__container {
+    width: 550px;
+  }
+}
+@media (max-width: 426px) {
+  .Product__container {
+    max-width: 260px;
+  }
+}
+@media (max-width: 320px) {
+  .Product__container-title {
+    margin: 0;
+    font-size: 48px;
+  }
+  .Product__container-cards {
+    width: 250px;
+  }
+  .Product__container-card {
+    max-width: 200px;
+  }
+  .Product__container-card-img {
+    width: 200px;
+  }
+}
+.Profile__container {
+  margin: 0 auto;
+  max-width: 1170px;
+  margin-top: 100px;
+}
+.Profile__container-title {
+  font-size: 64px;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  color: #ffffff;
+  color: #000;
+}
+.Profile__container-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+}
+.Profile__container-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  margin-top: 15px;
+}
+.Profile__container-info {
+  margin-top: 30px;
+  display: flex;
+}
+.Profile__container-person {
+  margin-right: 126px;
+}
+
+.Orders__container {
+  margin: 0 auto;
+  max-width: 1170px;
+  margin-top: 50px;
+}
+.Orders__container-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+}
+.Orders__container-block {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.Orders__container-block-img {
+  margin-right: 30px;
+}
+.Orders__container-block-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  margin-right: 30px;
+}
+
+.questions {
+  margin-top: 50px;
+}
+.questions__container {
+  background-image: url(/src/assets/images/bg-AboutUs.svg);
+  height: 500px;
+  background-repeat: no-repeat;
+}
+.questions__container-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.questions__container-dropdown {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+.questions__container-dropdown-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.questions__container-dropdown-info {
+  display: flex;
+  margin-left: 375px;
+}
+.questions__container-info-img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.questions__container-dropdown-content {
+  display: none;
+  position: relative;
+  color: #ffffff;
+  padding: 12px 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.questions__container-dropdown.active .questions__container-info-img {
+  transform: rotate(90deg);
+}
+.questions__container-dropdown.active .questions__container-dropdown-content {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .questions__container-dropdowns {
+    margin: 0 auto;
+  }
+}
+.Corzina__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.Corzina__container-title {
+  font-size: 64px;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  color: #ffffff;
+  color: #000;
+  margin-top: 50px;
+}
+.Corzina__container-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.Corzina__container-card {
+  width: 256px;
+}
+.Corzina__container-card-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  margin-top: 10px;
+}
+.Corzina__container-card-text {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+}
+.Corzina__container-card-cena {
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.Corzina__container-Cost {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+.Corzina__container-Cost-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  font-weight: 400;
+}
+.Corzina__container-Cost-btn {
+  border-radius: 12px;
+  padding: 12px 35px;
+  background-color: #AC9782;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.Auth {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  padding-top: 15px;
+}
+.Auth__container {
+  margin: 0 auto;
+  max-width: 1170px;
+  justify-content: space-between;
+  align-items: center;
+}
+.Auth__container-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.Auth__container-search-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  margin-bottom: 20px;
+}
+.Auth__container-search-text {
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #F1ECE4;
+  color: #000;
+  width: 365px;
+  margin-bottom: 20px;
+}
+.Auth__container-search-entrance-btn {
+  border-radius: 12px;
+  padding: 12px 35px;
+  background-color: #AC9782;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+}
+.Auth__container-search-entrance {
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+.Auth__container-search-text {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+}
+
+.admin {
+  text-align: center;
+  height: 100%;
+  background-color: #AC9782;
+}
+
+.admin_btn {
+  font-size: 24px;
+  left: 0;
+}/*# sourceMappingURL=style.css.map */

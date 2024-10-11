@@ -1,0 +1,36 @@
+@import '../fonts.scss';
+
+.Advantages{
+    &__container{
+        margin: 0 auto;
+        max-width: 1170px;
+    }
+    &__container-subtitle{
+        margin-top: 50px;
+        @include subtitle;
+        text-align: center
+    }
+    &__container-block{
+        margin-top: 50px;
+       display: flex;
+       align-items: center;
+       justify-content: center
+    }
+    &__container-block-number{
+        @include subtext;
+        color: #000;
+        background-color: #C49F8C;
+        padding: 15px 20px;
+        border-radius:20px;
+        margin-right: 20px;
+    }
+    &__container-block-info-subtext{
+        @include subtext;
+        color: #000
+    }
+    &__container-block-info-text{
+        @include basic-text;
+        color: #000;
+        margin-top: 10px;
+    }
+}

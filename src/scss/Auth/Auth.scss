@@ -1,0 +1,44 @@
+@import '../fonts.scss';
+
+
+.Auth{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    padding-top: 15px;
+    &__container{
+        margin: 0 auto;
+        max-width: 1170px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__container-subtitle{
+        @include subtitle;
+        margin-bottom: 20px;
+    }
+    &__container-search-subtext{
+        @include subtext;
+        color: #000;
+        margin-bottom: 20px
+      
+    }
+    &__container-search-text{
+        @include search;
+        width: 365px;
+        margin-bottom: 20px
+    }
+    &__container-search-entrance-btn{
+        @include btn;
+        @include subtext;
+    }
+    &__container-search-entrance{
+        display: flex;
+        margin-top: 12px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__container-search-text{
+        @include basic-text;
+        color: #000;
+    }
+}

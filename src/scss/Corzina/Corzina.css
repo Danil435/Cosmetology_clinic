@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.Corzina__container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.Corzina__container-title {
+  font-size: 64px;
+  font-family: "Cormorant Garamond";
+  font-weight: 700;
+  color: #ffffff;
+  color: #000;
+  margin-top: 50px;
+}
+.Corzina__container-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.Corzina__container-card {
+  width: 256px;
+}
+.Corzina__container-card-subtext {
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+  margin-top: 10px;
+}
+.Corzina__container-card-text {
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+  color: #000;
+}
+.Corzina__container-card-cena {
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.Corzina__container-Cost {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+.Corzina__container-Cost-subtitle {
+  font-size: 36px;
+  font-family: "Lato";
+  font-weight: 700;
+  color: #000000;
+  font-weight: 400;
+}
+.Corzina__container-Cost-btn {
+  border-radius: 12px;
+  padding: 12px 35px;
+  background-color: #AC9782;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #ffffff;
+}/*# sourceMappingURL=Corzina.css.map */

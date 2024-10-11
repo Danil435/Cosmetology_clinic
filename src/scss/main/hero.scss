@@ -1,0 +1,52 @@
+@import '../fonts.scss';
+@import '../variables.scss';
+
+.hero {
+    &__container {
+        background-image: url(/src/assets/images/hero-bg.png);
+        background-size: cover; 
+        background-position: center;
+        display: flex;
+        justify-content: center; 
+        align-items: center;    
+        height: 911px;
+        background-repeat: no-repeat;
+    }
+
+    &__container-info {
+        text-align: center;
+    }
+
+    &__container-info-title {
+        @include title;
+        margin-bottom: 10px;
+    }
+
+    &__container-info-subtext {
+        @include subtext;
+        margin-bottom: 60px;
+    }
+
+    &__container-info-link {
+        @include subtext;
+        @include link;
+        padding: 10px;
+        border-radius: 22px;
+    }
+    
+}
+
+@media (max-width: $vp-medium) and (min-width:$vp-small) {
+    .hero{
+        &__container{
+            height: 400px;
+        }
+     &__container-info-title{
+         @include subtitle;
+         color:#ffffff;
+     }
+     &__container-info-subtext{
+        font-size: 20px;
+     }
+    }
+ }
